@@ -19,4 +19,4 @@ A simple React application that allows users to *increment, **decrement, and **r
 - *CSS3* – Styling and layout  
 - *Vite* – Fast React setup and local development  
 
----
+
