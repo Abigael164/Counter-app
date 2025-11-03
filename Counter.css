@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-image:url(/Backg.jpeg);
+    color: rgb(252, 250, 250);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.container{
+    position: relative;
+    background-color: rgb(240, 231, 231,0.9);
+    color: black;
+    text-align: center;
+    font-size: 26px;
+    border: 1px solid rgb(80, 76, 76);
+    border-radius: 10px;
+}
+:nth-child(2){
+    background-color: black;
+    color: white;
+    padding: 5px;
+    width: fit-content;
+    margin: 10px  auto;
+    padding: 10px 20px;
+    border-radius: 20%;
+}
+button{
+    font-size: 17px;
+    font-weight: 550;
+    border: none;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px;
+    transition: all 0.3s ease;
+}
+button:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgb(99, 99, 124);
+    background-color: rgb(34, 34, 58);
+    color: burlywood;
+}
+button:active{
+    transform: scale(0.95);
+}
+@keyframes pop{
+    0% {transform: scale(1);}
+    50% {transform: scale(1.4);}
+    100% {transform: scale(1);}
+}
+.pop{
+    animation: pop 0.3s ease;
+}
